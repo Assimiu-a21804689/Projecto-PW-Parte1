@@ -33,8 +33,6 @@ aside ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
     background-color:rgb(206, 206, 235);
 }
 
