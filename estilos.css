@@ -47,6 +47,7 @@ aside ul{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     background-color:rgb(206, 206, 235);
+    margin-right: 10px;
 }
 
 aside ul li{
@@ -71,6 +72,7 @@ main section{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 20px;
+    margin-right: 5px;
 }
 
 
