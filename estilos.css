@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body, ul, a{
+    background-color: rgba(241, 221, 214, 0.315);
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+}
+
+header div input{
+    display: none;
+}
+
+header div label{
+    font-size: 60px;
+    padding: 10px;
+    margin:10px; 
+}
+
+header h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+aside ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+aside ul li{
+    display: grid;
+    padding: 8px;
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        background-color: chartreuse;
+    }
+}
