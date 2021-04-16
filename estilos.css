@@ -72,7 +72,7 @@ main section{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px;
-    margin-left: 20px;
+    margin-right: 20px;
     width: 100%;
 }
 
