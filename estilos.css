@@ -9,8 +9,9 @@ body, ul, a{
 }
 
 header{
+
     display: grid;
-    position: fixed;
+    grid-template-columns: 3fr 1fr;
     width: 100%;
     background-color: rgb(95, 95, 190);
     color: white;
@@ -28,24 +29,27 @@ header h1{
     text-align: center;
 }
 
-
-header .menuHeader{
+aside{
+    display: grid;
+    padding: 20px;
     width: 100%;
 }
-header div ul{
+
+aside ul{
+    position: fixed;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     background-color:rgb(206, 206, 235);
 }
 
-header div ul li{
+aside ul li{
     display: grid;
     margin: 2px;
     text-align: center;
     background-color: blue;
 }
-header div ul li a{
+aside ul li a{
     padding: 10px;
     color: rgb(247, 236, 236);
     font-size: 12px;
@@ -56,12 +60,6 @@ main{
     padding: 40px;
 }
 
-
-
-footer{
-    display: grid;
-    position: fixed;
-}
 
 
 @media only screen and (min-width: 600px){
