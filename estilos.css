@@ -76,6 +76,7 @@ main section{
 }
 
 main section img{
+    margin-left: 15px;
     height: 190px;
     width: 210px;
 }
