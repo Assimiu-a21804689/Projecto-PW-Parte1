@@ -1,7 +1,10 @@
 *{
     box-sizing: border-box;
 }
-body, ul, a{
+body{
+    background-color: whitesmoke;
+}
+ul, a{
     background-color: rgba(241, 221, 214, 0.315);
     list-style: none;
     text-decoration: none;
@@ -58,6 +61,7 @@ aside ul li a{
 
 
 main{
+    padding-left: 60px;
     padding-top: 200px;
 }
 main section{
