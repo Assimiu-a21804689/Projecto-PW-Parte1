@@ -9,7 +9,7 @@ body, ul, a{
 }
 
 header{
-
+    position: fixed;
     display: grid;
     grid-template-columns: 3fr 1fr;
     width: 100%;
@@ -30,13 +30,14 @@ header h1{
 }
 
 aside{
+    position: fixed;
+    margin-top: 70px;;
     display: grid;
     padding: 20px;
     width: 100%;
 }
 
 aside ul{
-    position: fixed;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
