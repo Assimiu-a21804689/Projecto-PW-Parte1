@@ -71,7 +71,7 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-left: 38px;
+    margin-left: 30px;
     width: 100%;
 }
 
