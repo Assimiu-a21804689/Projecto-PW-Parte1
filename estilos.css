@@ -67,9 +67,9 @@ main{
     padding-top: 200px;
 }
 main section{
-    margin: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     margin-left: 30px;
     width: 100%;
