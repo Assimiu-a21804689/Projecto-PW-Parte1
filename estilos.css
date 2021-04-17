@@ -64,6 +64,8 @@ aside ul li a{
 
 
 main{
+    margin: 0px;
+    width: 500px;
     padding-top: 200px;
 }
 main section{
