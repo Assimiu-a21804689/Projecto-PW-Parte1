@@ -72,7 +72,7 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: 100%;
+    width: 80%;
 }
 
 main section img{
