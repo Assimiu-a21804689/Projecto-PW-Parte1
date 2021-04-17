@@ -76,9 +76,8 @@ main section{
 }
 
 main section img{
-    height: 190px;
-    width: 205px;
-    padding: 30px;
+    height: 170px;
+    width: 170px;
 }
 
 @media only screen and (min-width: 600px){
