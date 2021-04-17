@@ -70,12 +70,15 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding: 10px;
+    margin-left: 50px;
     width: 100%;
 }
 
 main section img{
-    height: 190px;
-    width: 210px;
+    margin: 0px;
+    height: 160px;
+    width: 180px;
 }
 
 @media only screen and (min-width: 600px){
