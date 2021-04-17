@@ -70,8 +70,6 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 10px;
-    margin-right: 20px;
     width: 100%;
 }
 
