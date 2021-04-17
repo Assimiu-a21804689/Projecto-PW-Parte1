@@ -18,7 +18,7 @@ header{
     grid-template-columns: 3fr 1fr;
     width: 100%;
     background-color: rgb(95, 95, 190);
-    color: rgb(241, 236, 236);
+    color: white;
     padding: 2px;
     margin-top: 0px;
 }
@@ -69,15 +69,13 @@ main{
 main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-columns: 2fr 1fr;
     align-items: center;
-    margin-left: 30px;
     width: 100%;
 }
 
 main section img{
-    height: 100px;
-    width: 100px;
+    height: 190px;
+    width: 210px;
 }
 
 @media only screen and (min-width: 600px){
