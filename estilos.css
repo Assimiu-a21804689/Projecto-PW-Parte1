@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px;
+    margin-top: 0px;
     background-color: whitesmoke;
 }
 ul, a{
@@ -64,23 +64,21 @@ aside ul li a{
 
 
 main{
-    margin: 0px;
     padding-top: 200px;
 }
-main{
-    margin: 0px;
+main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px;
+    margin-left: 30px;
     width: 100%;
 }
 
-main img{
+main section img{
     margin: 0px;
-    height: 160px;
-    width: 150px;
-    
+    height: 190px;
+    width: 180px;
 }
 
 @media only screen and (min-width: 600px){
