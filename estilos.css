@@ -64,7 +64,6 @@ aside ul li a{
 
 
 main{
-    margin: 0px;
     padding-top: 200px;
 }
 main section{
@@ -72,11 +71,12 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: 80%;
+    margin-left: 30px;
+    width: 100%;
 }
 
 main section img{
-    height: 170px;
+    height: 180px;
     width: 170px;
 }
 
