@@ -17,10 +17,11 @@ header{
     display: grid;
     grid-template-columns: 3fr 1fr;
     width: 100%;
-    background-color: rgb(95, 95, 190);
+    background-color: rgb(41, 41, 56);
     color: white;
     padding: 2px;
     margin-top: 0px;
+    margin-left: -8px;
 }
 
 header div label{
@@ -36,17 +37,25 @@ header h1{
 
 aside{
     position: fixed;
-    margin-top: 70px;
     display: grid;
+    margin-top: 13px;
     padding: 20px;
     width: 100%;
+}
+aside .menu{
+    color: white;
+    background-color: rgb(72, 72, 94);
+    text-align: center;
+    padding: 10px;
+    margin-left: 50%;
 }
 
 aside ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    background-color:rgb(206, 206, 235);
+    background-color: rgb(41, 41, 56);
+    margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -54,7 +63,7 @@ aside ul li{
     display: grid;
     margin: 2px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(41, 41, 56);
 }
 aside ul li a{
     padding: 10px;
@@ -65,8 +74,7 @@ aside ul li a{
 
 main{
     margin: 0px;
-    padding-top: 200px;
-    background-color: rgb(183, 183, 214);
+    padding-top: 100px;
 }
 main section{
     margin: 0px;
@@ -83,22 +91,91 @@ main section img{
     width: 180px;
 }
 
-
-footer nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color:  rgb(95, 95, 190);
-
-}
-
-footer nav div a{
-    background-color: rgb(179, 179, 233);
-    padding: 10px;
-}
-
 @media only screen and (min-width: 600px){
-    body{
-        background-color: chartreuse;
+    header{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-left: -8px;
     }
+    header div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(41, 41, 56);
+    }
+
+   .menuCompra{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-right: 10px;
+    }
+    .menuCompra a{
+        padding: 9px;
+        margin: 1px;
+        text-align: center;
+        color: cornsilk;
+        background-color: rgb(95, 146, 95);
+        border: solid 1px;
+        border-radius: 10px;
+    }
+
+    header .botomCompra, .botomVenda{
+        cursor: pointer;
+        color: cornsilk;
+        padding: 10px;
+        background-color: rgb(83, 138, 70);
+        border-radius: 6px;
+    }
+    .menuCompra{
+        display: none;
+        
+    }
+    .botomCompra:hover {
+        border: white solid 2px;
+    }
+    .botomCompra:hover + .menuCompra{
+        display: grid;
+    }
+    .menuCompra:hover{
+        display: grid;
+    }
+    .menuCompra:hover + a{
+        border: rgb(32, 32, 26) solid 2px;
+    }
+    aside{
+        display: none;
+    }
+    main{
+        padding-top: 80px;
+    }
+    main section{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    footer{
+        position: fixed;
+        margin-top: 660px;
+        background-color: rgb(41, 41, 56);
+        padding: 20px;
+        width: 100%;
+        margin-left: -8px;
+    }
+    footer nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    footer nav div a{
+        padding: 8px;
+        background-color: rgb(206, 206, 238);
+        
+    }
+
+
+    .comprar:hover + aside{
+        display: grid;
+    }
+    
+   
 }
