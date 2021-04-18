@@ -34,6 +34,19 @@ header h1{
     font-size: 30px;
     text-align: center;
 }
+.botomCompra{
+    display: none;
+}
+.botomVenda{
+    display: grid;
+    margin-top: 20px;
+    margin-right: 60px;
+    cursor: pointer;
+    color: cornsilk;
+    padding: 8px;
+    background-color: rgb(83, 138, 70);
+    border-radius: 6px;
+}
 
 aside{
     position: fixed;
@@ -49,7 +62,7 @@ aside .menu{
     padding: 10px;
     margin-left: 120px;
 }
-.comprar{
+.menuCompra{
     display: none;
 }
 
