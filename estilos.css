@@ -70,7 +70,7 @@ aside ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    background-color: rgb(41, 41, 56);
+    background-color: rgb(42, 41, 56);
     margin-top: 10px;
     margin-right: 10px;
 }
