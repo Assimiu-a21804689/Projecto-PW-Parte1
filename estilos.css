@@ -90,6 +90,10 @@ aside .janelaMenu li{
 .janelaMenu{
     display: none;
 }
+main{
+    margin: 0px;
+    padding-top: 30px;
+}
 
 .menu:hover + .janelaMenu{
     display: grid;
@@ -99,10 +103,9 @@ aside .janelaMenu li{
 }
 
 
-main{
-    margin: 0px;
-    padding-top: 100px;
-}
+
+
+
 main section{
     margin: 0px;
     display: grid;
