@@ -134,8 +134,12 @@ main section img{
         border: solid 1px;
         border-radius: 10px;
     }
+    .botomCompra{
+        display: grid;
+    }
 
     header .botomCompra, .botomVenda{
+        margin-top: 0;
         cursor: pointer;
         color: cornsilk;
         padding: 10px;
