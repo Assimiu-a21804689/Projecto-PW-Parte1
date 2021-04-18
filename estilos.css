@@ -75,16 +75,27 @@ aside ul{
     margin-right: 10px;
 }
 
-aside ul li{
+aside .janelaMenu li{
     display: grid;
     margin: 2px;
     text-align: center;
     background-color: rgb(41, 41, 56);
 }
-aside ul li a{
+.janelaMenu li a{
     padding: 10px;
     color: rgb(247, 236, 236);
     font-size: 12px;
+}
+
+.janelaMenu{
+    display: none;
+}
+
+.menu:hover + .janelaMenu{
+    display: grid;
+}
+.janelaMenu:hover{
+    display: grid;
 }
 
 
@@ -196,6 +207,7 @@ main section img{
         border-radius: 10px;
         
     }
+
 
 
     .comprar:hover + aside{
