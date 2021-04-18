@@ -187,8 +187,13 @@ main section img{
         
     }
     footer nav div a{
-        padding: 8px;
-        background-color: rgb(206, 206, 238);
+        padding: 9px;
+        margin: 1px;
+        text-align: center;
+        color: cornsilk;
+        background-color: rgb(95, 146, 95);
+        border: solid 1px;
+        border-radius: 10px;
         
     }
 
