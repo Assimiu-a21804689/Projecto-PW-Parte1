@@ -89,17 +89,20 @@ aside .janelaMenu li{
 
 .janelaMenu{
     display: none;
-    transition: all 1s;
 }
 main{
     margin: 0px;
     padding-top: 30px;
 }
 
-.menu:hover + .janelaMenu{
+.janelaMenu:hover{
     display: grid;
 }
-.janelaMenu:hover{
+#n{
+    display: none;
+}
+
+input[type = "checkbox"]:checked ~ .janelaMenu{
     display: grid;
 }
 
