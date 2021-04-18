@@ -38,7 +38,7 @@ header h1{
 aside{
     position: fixed;
     display: grid;
-    margin-top: 5px;
+    margin-top: 1px;
     padding: 20px;
     width: 100%;
 }
