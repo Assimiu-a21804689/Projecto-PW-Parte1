@@ -89,6 +89,7 @@ aside .janelaMenu li{
 
 .janelaMenu{
     display: none;
+    transition: all 1s;
 }
 main{
     margin: 0px;
@@ -138,6 +139,7 @@ main section img{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding-right: 10px;
+     
     }
     .menuCompra a{
         padding: 9px;
