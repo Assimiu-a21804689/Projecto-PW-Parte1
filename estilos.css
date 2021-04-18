@@ -47,7 +47,10 @@ aside .menu{
     background-color: rgb(72, 72, 94);
     text-align: center;
     padding: 10px;
-    margin-left: 50%;
+    margin-left: 100px;
+}
+.comprar{
+    display: none;
 }
 
 aside ul{
