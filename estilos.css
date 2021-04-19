@@ -107,7 +107,9 @@ input[type = "checkbox"]:checked ~ .janelaMenu{
     display: grid;
 }
 
-
+main{
+    margin-top: 20px;
+}
 
 main section{
     margin: 0px;
