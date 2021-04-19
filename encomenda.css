@@ -2,33 +2,33 @@
     box-sizing: border-box;
 }
 header{
-    
+    position: fixed;
     display: grid;
-    grid-template-columns: 3fr 1fr;
     width: 100%;
     background-color: rgb(41, 41, 56);
     color: white;
-    
-    margin-top: -10px;
-    padding-left: 200px;
-    margin-right: -10px;
-    
+    padding: 2px;
+    margin-top: 0px;
+    margin-left: -8px;
 }
 header h1{
     text-align: center;
-
 }
 main .formulario{
+    padding-top: 102px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  
 }
 
 main .formulario .dadosPessoas{
+    
     display: grid;
     width: 90%;
 }
 .dadosPessoas div{
+    
     padding: 3px;
     border: solid 1px;
 }
@@ -49,8 +49,11 @@ main .formulario .dadosPessoas{
 
 .artigo{
     display: flex;
-    justify-content: space-around;
+    text-align: center;
     width: 90%;
+}
+.artigo label{
+    margin-left: 80px;
 }
 .submisao{
     padding-top: 3px;
@@ -61,12 +64,7 @@ main .formulario .dadosPessoas{
 }
 
 @media only screen and (min-width: 600px){
-    header{
-        align-items: center;
-        margin-top: -10px;
-        padding-left: 200px;
-        margin-right: -10px;
-    }
+   
     main{
         width: 100%;
         margin: 10px;
