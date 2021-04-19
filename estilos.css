@@ -125,7 +125,7 @@ main section img{
 
 aside .menuPagina{
     position:fixed;
-    padding-top: 450px;
+    padding-top: 500px;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr;
 }
