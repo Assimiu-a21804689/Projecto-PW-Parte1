@@ -130,12 +130,18 @@ aside .menuPagina{
     grid-template-columns:  1fr 1fr 1fr 1fr;
 }
 
+.menuPagina div{
+    margin-right: 5px;
+}
 .menuPagina div a {
     display: grid;
-    padding: 5px;
-    background-color: aquamarine;
+    padding: 10px;
+    background-color: rgb(83, 138, 70);
     margin: 2px;
+    color: beige;
 }
+
+
 
 @media only screen and (min-width: 600px){
     header{
