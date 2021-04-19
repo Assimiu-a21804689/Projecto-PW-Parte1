@@ -63,7 +63,7 @@ aside .menu{
     background-color: rgb(56, 55, 66);
     text-align: center;
     padding: 10px;
-    margin-left: 128px;
+    margin-left: 122px;
     border-radius: 6px;
 }
 .menuCompra{
@@ -125,7 +125,6 @@ main section img{
 }
 
 footer{
-    background: rgb(41, 41, 56);
     padding-top: 68px;
 }
 
