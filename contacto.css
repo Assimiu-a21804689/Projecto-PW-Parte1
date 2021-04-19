@@ -21,6 +21,7 @@ main div{
     padding-top: 80px;
     border: solid 1px;
     margin: 2px;
+    text-align: center;
 }
 h1, h2, p{
     text-align: center;
