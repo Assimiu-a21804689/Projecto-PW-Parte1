@@ -14,3 +14,16 @@ header{
 header h1{
     text-align: center;
 }
+
+.formulario{
+    
+    padding-top: 110px;
+}
+.formulario fieldset{
+    padding: 40px;
+}
+
+.formulario fieldset div{
+   
+    padding: 10px;
+}
