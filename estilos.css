@@ -1,5 +1,6 @@
-*{
+*, a{
     box-sizing: border-box;
+
 }
 body{
     margin-top: 0px;
@@ -53,6 +54,7 @@ aside{
     display: grid;
     margin-top: 1px;
     padding: 20px;
+    padding-top: 149px;
     width: 100%;
 }
 aside .menu{
@@ -123,22 +125,27 @@ main section img{
     width: 180px;
 }
 
-aside .menuPagina{
-    position:fixed;
-    padding-top: 480px;
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr 1fr;
+footer{
+    padding-top: 90px;
+    background-color:  rgb(56, 55, 66);
 }
 
-.menuPagina div{
-    margin-right: 5px;
-}
-.menuPagina div a {
+footer nav{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:  rgb(56, 55, 66);
+}
+footer nav div{
+    background-color:  rgb(56, 55, 66);
+    padding: 15px
+}
+footer nav a{
+    background-color: rgb(56, 55, 66);
+    margin: 20px;
     padding: 10px;
-    background-color: rgb(83, 138, 70);
-    margin: 2px;
-    color: beige;
+    border: solid 1px;
+    border-radius: 10px;
+    color: cornsilk;
 }
 
 
