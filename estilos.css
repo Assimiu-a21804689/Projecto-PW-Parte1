@@ -124,7 +124,8 @@ main section img{
 }
 
 aside .menuPagina{
-    padding-top: 360px;
+    position:fixed;
+    padding-top: 380px;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr;
 }
