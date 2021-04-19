@@ -54,7 +54,7 @@ aside{
     display: grid;
     margin-top: 1px;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 140px;
     width: 100%;
 
 }
@@ -65,6 +65,7 @@ aside .menu{
     padding: 10px;
     margin-left: 122px;
     border-radius: 6px;
+
 }
 .menuCompra{
     display: none;
@@ -144,14 +145,22 @@ footer nav a{
     border-radius: 10px;
     color: cornsilk;
 }
-
-.oculto{
+.visivel{
     display: none;
 }
+
 
 @media only screen and (min-width: 600px){
     .oculto{
         display: none;
+    }
+    .visivel{
+        display: grid;
+    }
+    .visivel nav{
+        display: flex;
+        margin-left: 10px;
+        justify-content: space-between;
     }
     header{
         display: grid;
@@ -217,8 +226,7 @@ footer nav a{
     main section{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    .oculto{
-        display: grid;
+    footer{
         position: fixed;
         margin-top: 660px;
         background-color: rgb(41, 41, 56);
@@ -226,16 +234,14 @@ footer nav a{
         width: 100%;
         margin-left: -8px;
     }
-    .visivel nav{
+    footer nav{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         padding: 10px;
         text-align: center;
         
     }
-
     footer nav div a{
-        
         padding: 9px;
         margin: 1px;
         text-align: center;
@@ -243,9 +249,10 @@ footer nav a{
         background-color: rgb(95, 146, 95);
         border: solid 1px;
         border-radius: 10px;
-        margin-left: 100px;
         
     }
+
+
 
     .comprar:hover + aside{
         display: grid;
