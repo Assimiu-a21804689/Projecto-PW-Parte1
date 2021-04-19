@@ -16,10 +16,11 @@ header h1{
 }
 main{
     padding: 40px;
+    border: solid 1px;
 }
 main div{
     padding-top: 80px;
-    border: solid 1px;
+    
     margin: 2px;
     text-align: center;
 }
