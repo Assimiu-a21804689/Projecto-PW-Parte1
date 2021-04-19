@@ -145,9 +145,14 @@ footer nav a{
     color: cornsilk;
 }
 
-
+.oculto{
+    display: none;
+}
 
 @media only screen and (min-width: 600px){
+    .oculto{
+        display: none;
+    }
     header{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -212,7 +217,8 @@ footer nav a{
     main section{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    footer{
+    .oculto{
+        display: grid;
         position: fixed;
         margin-top: 660px;
         background-color: rgb(41, 41, 56);
@@ -220,14 +226,16 @@ footer nav a{
         width: 100%;
         margin-left: -8px;
     }
-    footer nav{
+    .visivel nav{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         padding: 10px;
         text-align: center;
         
     }
+
     footer nav div a{
+        
         padding: 9px;
         margin: 1px;
         text-align: center;
@@ -235,10 +243,9 @@ footer nav a{
         background-color: rgb(95, 146, 95);
         border: solid 1px;
         border-radius: 10px;
+        margin-left: 100px;
         
     }
-
-
 
     .comprar:hover + aside{
         display: grid;
