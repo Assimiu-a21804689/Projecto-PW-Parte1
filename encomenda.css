@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+    background-color: rgb(41, 41, 56);
+    color: white;
+    
+    margin-top: -10px;
+    padding-left: 200px;
+    margin-right: -10px;
+    
+}
+header h1{
+    text-align: center;
+
+}
+main .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .formulario .dadosPessoas{
+    display: grid;
+    width: 90%;
+}
+.dadosPessoas div{
+    padding: 3px;
+    border: solid 1px;
+}
+.dadosPessoas div label input{
+    border: solid 2px;
+    width: 230px;
+    
+}
+.dadosPessoas div label{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 6px;
+    align-items: center;
+    padding-left: 10px;
+    color: rgb(49, 47, 47);
+    border: solid 1px;
+}
+
+.artigo{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.submisao{
+    padding-top: 3px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: rgb(83, 138, 70);
+    border-radius: 30px;
+}
+
+@media only screen and (min-width: 600px){
+    header{
+        align-items: center;
+        margin-top: -10px;
+        padding-left: 200px;
+        margin-right: -10px;
+    }
+    main{
+        width: 100%;
+        margin: 10px;
+    }
+    header h1{
+        margin-left: 20px;
+    }
+    .dadosPessoas div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

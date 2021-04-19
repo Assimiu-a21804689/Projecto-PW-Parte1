@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encomenda.css">
+    <title>LoJaOnLine</title>
+</head>
+<body>
+    <header>
+        <h1>Encomenda</h1>
+    </header>
+
+    <main>
+        <form class="formulario" method="post" action="mailto:assimium2@gmail.com" >
+            <fieldset class="dadosPessoas">
+                <legend class="legen">Dados Pessoais</legend>
+                
+                <div>
+                    <label>Nome<input type="text" name="Nome"></label>
+                    <label>Apelido<input type="text" name="Apelido"></label>
+                    <label>Data Nascimento <input type="Data" name="dataNascimento" max="2018-12-31" min="1920-12-31"></label>
+                    <label>Telemóvel <input type="text" name="Contacto" id=""></label>
+                    <label>Email <input type="email" name = "Email" value=""></label>
+                    <label>Morada <input type="text" name="Morada"></label>
+                    <label>Codigo-Postal <input type="text" name="codigoPostal"></label>
+                    
+                </div>
+            </fieldset>
+
+            <fieldset class="artigo">
+                <legend>Artigo</legend>
+                
+                <label>Quantidade:<input type="number" name="Quantidade" min="1" max="20"></label>
+                <label>Cor:<input type="color" name="Cor"></label>
+            </fieldset>
+
+            <label><input class="submisao" type="submit" ></label>
+            
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
