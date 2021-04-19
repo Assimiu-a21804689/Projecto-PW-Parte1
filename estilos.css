@@ -137,7 +137,7 @@ footer nav{
 }
 footer nav div{
     background-color:  rgb(56, 55, 66);
-    padding: 15px
+    padding-inline-end: 10px
 }
 footer nav a{
     background-color: rgb(56, 55, 66);
