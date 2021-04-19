@@ -45,7 +45,7 @@ header h1{
     cursor: pointer;
     color: cornsilk;
     padding: 8px;
-    background-color: rgb(83, 138, 70);
+    background-color:rgb(72, 72, 94);
     border-radius: 6px;
 }
 
@@ -59,10 +59,11 @@ aside{
 }
 aside .menu{
     color: white;
-    background-color: rgb(72, 72, 94);
+    background-color: rgb(56, 55, 66);
     text-align: center;
     padding: 10px;
     margin-left: 128px;
+    border-radius: 6px;
 }
 .menuCompra{
     display: none;
